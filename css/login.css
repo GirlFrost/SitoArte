@@ -1,0 +1,56 @@
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #54414ed5;
+    border-radius: 15px;
+    width: fit-content;
+    background-color: #bea2b563;
+    padding: 3%;
+}
+fieldset{
+    display: block;
+    float: left;
+    margin: 5px;
+    padding: 4px;
+    border: 2px solid #54414ed5;;
+    border-radius: 15px;
+}
+form{
+    display: inline-block;
+}
+legend{
+    font-family: vogue;
+}
+@font-face {
+    font-family: vogue;
+    src: url(Vogue.ttf);
+    font-weight: bold;
+}
+.log{ /* submit and reset button*/
+    background-color: #bea2b593;
+    border: 1px solid #667;
+    border-radius: 10px;
+    width: 45%;
+    height: 25px;
+    transition-duration: 0.4s;
+  box-shadow: 2px 2px 8px #333333;
+}
+.log:hover{
+    background-color: white; 
+}
+#err{
+    background-color: rgba(233, 40, 79, 0.644);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: fit-content;
+    color:black;
+}
+#warning{
+    background-color: rgba(116, 230, 105, 0.644);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: fit-content;
+    color:black;
+}

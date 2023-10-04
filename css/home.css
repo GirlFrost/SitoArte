@@ -1,0 +1,148 @@
+.user{
+  text-align: right;
+}
+#button{
+  background-color: #bea2b593;
+  border: 1px solid #667;
+  border-radius: 10px;
+  padding: 5px;
+  transition-duration: 0.4s;
+}
+#button:hover{
+  background-color: white; 
+}
+.slide{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.quadri{
+  display: none;
+}
+.quadri img{
+  width:100%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.punti{
+  text-align:center
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+#logout{
+  padding: 5px;
+  background-color: #bea2b593;
+  border: 1px solid #667;
+  border-radius: 10px;
+  width: 60px;
+  height: 25px;
+  transition-duration: 0.4s;
+  margin-right: 30px;
+  box-shadow: 3px 3px 10px #333333;
+}
+#logout:hover{
+  background-color: white; 
+}
+#about{
+  background-color: rgb(179, 161, 160);
+  margin: 10%;
+  width: 80%;
+  height: auto;
+}
+#about img{
+  display: inline-block;
+  overflow: hidden;
+  margin: auto;
+  width: 50%;
+}
+#about p{
+  display: inline-block;
+  position: absolute;
+  clear: both;
+  overflow: auto;
+  padding:2%;
+  width: 40%;
+  height: auto;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 2vh;
+}
+#title{
+  font-family: vogue;
+  font-size: 7vh;
+}
+@media screen and (max-width: 1160px){
+ #about{
+  display: inline-block;
+   text-align:left;
+   overflow: auto;
+   margin-bottom: 60%;
+ }
+ #about img{
+  display: block;
+  overflow: hidden;
+  margin: auto;
+  width: 50%;
+  }
+  #about p{
+    background-color: rgb(179, 161, 160);
+    width: 80%;
+    overflow: hidden;
+  }
+}
+
+@font-face {
+  font-family: vogue;
+  src: url(Vogue.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: fontina;
+  src: url(fontina.ttf);
+  font-weight: bold;
+}
+.intestazion, #aboutme{
+  font-family: fontina;
+  font-size: 9vh;
+  text-align: center;
+  text-shadow: 2px 2px #3333334f;
+}
+hr{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+}

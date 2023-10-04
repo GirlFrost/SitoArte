@@ -1,0 +1,47 @@
+.cartList{
+    background-color: rgba(255, 255, 255, 0.562);
+    box-shadow: 0 5px 20px rgb(0, 0, 0, .05);
+    height: auto;
+    width: 40vh;
+    float: right;
+    display: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 3vh;
+    box-shadow: 5px 5px 20px 2px #333333;
+}
+.cartList p, span, .total{
+    font-family: fontina;
+}
+.cartList span{
+    display: inline;
+    padding: 8px;
+    font-size: 2vh;
+    margin-left: 2vw;
+}
+.delete{
+    font-family:monospace;
+    font-weight: bolder;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    transition-duration: 0.4s;
+    font-size: 2vh;
+    overflow: hidden;
+    float: right;
+}
+#reset, #buy{
+    margin-left: 50%;
+}
+.compra{
+    background-color: #bea2b593;
+    border: 1px solid #667;
+    border-radius: 10px;
+    width: 45%;
+    height: 25px;
+    transition-duration: 0.4s;
+    margin-bottom: 3px;
+}
+.compra:hover{
+    background-color: white;
+}
